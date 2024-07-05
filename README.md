@@ -35,8 +35,8 @@ In this project, I trained a text-to-SQL model using the Code-Gemma-7B model to 
   - **Generated Queries**: The model produced SQL queries that, although not perfect, were reasonably accurate and could be further refined.
 
 ## **Future Work**
-  - **Extended Training: I plan to utilize more powerful GPUs (e.g., A100 on Google Colab) to increase the training data and epochs for better performance.
-  - **Parameter Tuning: I will experiment with different LORA ranks, batch sizes, and sequence lengths to optimize model accuracy and efficiency.
-  - **Model Evaluation and Testing: I will continue to evaluate the model on diverse datasets to ensure robustness and generalizability.
+  - **Extended Training**: I plan to utilize more powerful GPUs (e.g., A100 on Google Colab) to increase the training data and epochs for better performance.
+  - **Parameter Tuning**: I will experiment with different LORA ranks, batch sizes, and sequence lengths to optimize model accuracy and efficiency.
+  - **Model Evaluation and Testing**: I will continue to evaluate the model on diverse datasets to ensure robustness and generalizability.
 
 This project highlights the potential of large language models like Code-Gemma-7B for automating SQL query generation, offering significant time savings and accuracy improvements in database management and querying tasks.
