@@ -16,16 +16,16 @@ In this project, I trained a text-to-SQL model using the Code-Gemma-7B model to 
     - **LORA (Low-Rank Adaptation)**: I applied LORA to update only a small percentage (approximately 0.6%) of the model's parameters, significantly reducing training overhead.
     - **Quantization**: This helped reduce the model size and memory usage without a substantial loss in performance.
 
-2.**Training Process**
+2. **Training Process**
   - **Environment**: I utilized a Kaggle environment with limited GPU memory.
   - **Training Data**: I employed a custom dataset for fine-tuning the model, containing various SQL schema definitions and corresponding queries.
   - **Epochs and Batch Size**: I trained the model for 1 epoch due to memory constraints, experimenting with different batch sizes and sequence lengths to avoid out-of-memory errors.
 
-3.**Logging and Monitoring**
+3. **Logging and Monitoring**
   - **Weights & Biases**: I integrated W&B for real-time tracking and logging of training metrics such as loss, runtime, and parameter updates.
   - **Model Evaluation**: I evaluated the model's performance on test datasets, comparing generated SQL queries with original ones.
 
-4.**Model Deployment**
+4. **Model Deployment**
   - **Model Saving and Uploading**: I saved the trained model and uploaded it to the Hugging Face Hub for easy access and deployment.
   - **Inference Pipeline**: I created a pipeline for generating SQL queries from natural language inputs using the fine-tuned model.
 
